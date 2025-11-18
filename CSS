@@ -1,0 +1,58 @@
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center; 
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 66px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-azul {
+      background-color: #3498db;
+      color: white;
+    }
+    .btn-azul:hover {
+      background-color: #00ff73;
+    }
+    .btn-azul:active {
+      background-color: #ff0000;
+    }
+
+    .btn-verde {
+      background-color: #37ae27;
+      color: white;
+    }
+    .btn-verde:hover {
+      background-color: #ffbb00;
+    }
+    .btn-verde:active {
+      background-color: #ff0000;
+    }
+
+    .btn-laranja {
+      background-color: #22e6dc;
+      color: white;
+    }
+    .btn-laranja:hover {
+      background-color: #ca14b2;
+    }
+    .btn-laranja:focus {
+      background-color: #ff0000;
+    }
