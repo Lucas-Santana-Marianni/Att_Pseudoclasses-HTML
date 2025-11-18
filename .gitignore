@@ -1,0 +1,17 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Node (caso futuramente use)
+node_modules/
+
+# Pastas de build
+dist/
+build/
